@@ -38,3 +38,35 @@ Ensure you have Python installed. Then, install the required libraries:
 
 ```bash
 pip install streamlit opencv-python face_recognition numpy pandas scipy
+
+2. Run the application
+streamlit run main.py
+
+3. Register a Face
+Go to the sidebar in the Streamlit app
+
+Enter a user name
+
+Capture an image using the webcam
+
+Confirm and save the face encoding
+
+4. Start Face Recognition + Blink Detection
+Click the "Toggle Recognition" button
+
+Blink in front of the camera
+
+If recognized and blink is detected, the system will unlock and log the entry
+
+5. View and Export Entry Logs
+Go to the Entry Records tab
+
+Filter records by name or date
+
+Click Export to download logs as a CSV file
+
+6. Optional: Clear Data
+Use the sidebar to delete all registered face data
+
+You can also clear the entry log entirely if needed
+
